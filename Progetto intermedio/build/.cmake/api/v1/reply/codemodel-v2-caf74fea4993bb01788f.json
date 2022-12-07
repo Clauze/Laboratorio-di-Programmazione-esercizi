@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Book",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Book::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Book-Debug-816d5c05c0c1b710f01f.json",
+					"name" : "Book",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Date::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Date-Debug-3d20810145fd4201e2cc.json",
+					"name" : "Date",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Isbn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Isbn-Debug-a9bf6bee87f7f58d8dc6.json",
+					"name" : "Isbn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-d050e3ec0ecd6e559dcb.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/claud/Desktop/Lab di programmazione/Laboratorio-di-programmazione/build",
+		"source" : "C:/Users/claud/Desktop/Lab di programmazione/Laboratorio-di-programmazione"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
