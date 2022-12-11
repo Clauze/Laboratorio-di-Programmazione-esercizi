@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Robot.dir/includes_CXX.rsp -g -o CMakeFiles\\Robot.dir\\Robot.cpp.obj -c \"D:\\utente\\GitHub\\Laboratorio-di-programmazione\\Laboratorio-di-Programmazione-esercizi\\Laboratorio 7\\Robot.cpp\"",
+  "file": "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/Robot.cpp"
+},
+{
+  "directory": "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c \"D:\\utente\\GitHub\\Laboratorio-di-programmazione\\Laboratorio-di-Programmazione-esercizi\\Laboratorio 7\\main.cpp\"",
+  "file": "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/main.cpp"
+}
+]
