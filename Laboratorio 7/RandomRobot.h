@@ -7,6 +7,7 @@ class RandomRobot: public Robot{
 
     public:
         bool move(Maze& lab) override;
+        bool nextMove(Maze& lab) override;
 };
 #include "RandomRobot.hpp"
 #endif

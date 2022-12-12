@@ -189,10 +189,10 @@ CMakeFiles/RightHandRuleRobot.dir/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/RandomRobot.dir/all
-CMakeFiles/main.dir/all: CMakeFiles/RightHandRuleRobot.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/Maze.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/Robot.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/RandomRobot.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/RightHandRuleRobot.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles" --progress-num=3,4 "Built target main"

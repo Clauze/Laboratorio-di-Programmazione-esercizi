@@ -12,7 +12,6 @@ Maze::Maze(string f)
 	fillMatrix();
 };
 
-
 bool Maze::fillMatrix(){
 	ifstream myfile (file);
 	if(myfile.is_open()){
@@ -88,7 +87,7 @@ char Maze::getValue(int x,int y)const{
 
 
 int Maze::setSSpos(int nx,int ny){
-	if((nx>=0 && ny >=0) && (nx<=matrixDim && ny<=matrixDim)){
+	if((nx>=0 && ny >=0) && (nx<matrixDim && ny<matrixDim)){
 		/*cout<<"\nval validi\n"<<xs<<" valori precedenti "<<ys<<"\n"<<nx<<" valori ora "<<ny;
 		cout<<"\n valore:"<<matrix[ny][nx]<<";"<<"o in ascii "<<int(matrix[ny][nx])<<"\n";
 		*/if(int(matrix[ny][nx]) == 32){
@@ -110,7 +109,7 @@ int Maze::setSSpos(int nx,int ny){
 }
 
 int Maze::setSRightPos(int nx,int ny){
-	if((nx>=0 && ny >=0) && (nx<=matrixDim && ny<=matrixDim)){
+	if((nx>=0 && ny >=0) && (nx<matrixDim && ny<matrixDim)){
 		/*cout<<"\nval validi\n"<<xs<<" valori precedenti "<<ys<<"\n"<<nx<<" valori ora "<<ny;
 		cout<<"\n valore:"<<matrix[ny][nx]<<";"<<"o in ascii "<<int(matrix[ny][nx])<<"\n";
 		*/if(int(matrix[ny][nx]) == 32){
@@ -132,3 +131,34 @@ int Maze::setSRightPos(int nx,int ny){
 }
 
 #endif
+/*
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i=0,maxx=-100,minx=100,maxy=-100,miny=100;
+    while(i<300){
+        int movx=-(rand() % (4));
+        int movy=rand() % (9) + (-6);
+        if(minx>movx){
+            minx=movx;
+        }
+        else if(maxx<movx){
+            maxx=movx;
+        }
+        if(miny>movy){
+            miny=movy;
+        }
+        else if(maxy<movy){
+            maxy=movy;
+        }
+        cout<<"\n\nrand x "<<movx<<" rand y "<<movy;
+        i++;
+    }
+    cout<<"\n\nmin x :"<<minx<<" max x:  "<<maxx<<"\n\nmin y :"<<miny<<" max y:  "<<maxy;
+    return 0;
+}
+*/

@@ -7,21 +7,20 @@
 int main(void) {
     
     Maze m("Labirinto.txt");
-    /*RandomRobot r;
+    RandomRobot r;
     
     while(!r.move(m)){
-        //r.move(m);
         r.addAttempts();
     }
 
-    cout<<"\nAttempts "<<r.getAttempts();*/
-
-    RightHandRuleRobot r;
+    cout<<"\nAttempts "<<r.getAttempts();
     
-    while(!r.move(m)){
-        //r.move(m);
-        //r.addAttempts();
+    Maze m2("Labirinto.txt");
+    RightHandRuleRobot right;
+    
+    while(!right.move(m2)){
+        right.addAttempts();
     }
-
+     cout<<"\nAttempts "<<right.getAttempts();
     return 0;
 }
