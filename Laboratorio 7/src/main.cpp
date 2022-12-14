@@ -20,7 +20,7 @@ int main(void) {
     }
 
     cout<<"\nAttempts "<<r.getAttempts();
-    Sleep(10000);
+    Sleep(5000);
     Maze m2("Labirinto.txt");
     RightHandRuleRobot right;
     

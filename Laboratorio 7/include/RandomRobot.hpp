@@ -35,7 +35,7 @@ bool RandomRobot::move(Maze& lab){
 
 bool RandomRobot::nextMove(Maze& lab){
 
-    int i=lab.getYs(),j=lab.getXs();
+    int i=lab.getYs(),j=lab.getXs(), initaliJ=0;
 
     if(lab.getYs() == 0){
         i++;
@@ -43,12 +43,11 @@ bool RandomRobot::nextMove(Maze& lab){
     if(lab.getXs() == 0){
         j++;
     }
+    initaliJ=j;
 
     for (i--; (i < lab.getYs() + 2) && i < 9  ; i++)
     {
 
-        cout<<"\n";
-        
         for (j--; (j < lab.getXs() + 2) && j < 9; j++)
         {
 
@@ -56,7 +55,7 @@ bool RandomRobot::nextMove(Maze& lab){
                 return false;
             }
         }
-        
+        j=initaliJ;
     }
     
 	return true;

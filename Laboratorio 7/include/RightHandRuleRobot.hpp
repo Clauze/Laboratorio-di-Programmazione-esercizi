@@ -60,7 +60,7 @@ bool RightHandRuleRobot::rightHand(Maze& lab,int x,int y){
 
 bool RightHandRuleRobot::nextMove(Maze& lab){
 
-    int i=lab.getYs(),j=lab.getXs();
+    int i=lab.getYs(), j=lab.getXs(), initaliJ=0;
 
     if(lab.getYs() == 0){
         i++;
@@ -69,10 +69,11 @@ bool RightHandRuleRobot::nextMove(Maze& lab){
         j++;
     }
 
+    initaliJ=j;
+
     for (i--; (i < lab.getYs() + 2) && i < 9  ; i++)
     {
 
-        cout<<"\n";
         
         for (j--; (j < lab.getXs() + 2) && j < 9; j++)
         {
@@ -82,6 +83,8 @@ bool RightHandRuleRobot::nextMove(Maze& lab){
             }
 
         }
+
+        j=initaliJ;
         
     }
     
