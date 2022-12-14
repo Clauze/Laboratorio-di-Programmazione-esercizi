@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7"
+CMAKE_SOURCE_DIR = C:\Users\claud\Desktop\lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build"
+CMAKE_BINARY_DIR = C:\Users\claud\Desktop\lab7\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\claud\Desktop\lab7\build\CMakeFiles C:\Users\claud\Desktop\lab7\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\claud\Desktop\lab7\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,58 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Maze
-
-# Build rule for target.
-Maze: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Maze
-.PHONY : Maze
-
-# fast build rule for target.
-Maze/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maze.dir\build.make CMakeFiles/Maze.dir/build
-.PHONY : Maze/fast
-
-#=============================================================================
-# Target rules for targets named Robot
-
-# Build rule for target.
-Robot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Robot
-.PHONY : Robot
-
-# fast build rule for target.
-Robot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot.dir\build.make CMakeFiles/Robot.dir/build
-.PHONY : Robot/fast
-
-#=============================================================================
-# Target rules for targets named RandomRobot
-
-# Build rule for target.
-RandomRobot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RandomRobot
-.PHONY : RandomRobot
-
-# fast build rule for target.
-RandomRobot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RandomRobot.dir\build.make CMakeFiles/RandomRobot.dir/build
-.PHONY : RandomRobot/fast
-
-#=============================================================================
-# Target rules for targets named RightHandRuleRobot
-
-# Build rule for target.
-RightHandRuleRobot: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RightHandRuleRobot
-.PHONY : RightHandRuleRobot
-
-# fast build rule for target.
-RightHandRuleRobot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RightHandRuleRobot.dir\build.make CMakeFiles/RightHandRuleRobot.dir/build
-.PHONY : RightHandRuleRobot/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -180,53 +128,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Robot.obj: Robot.cpp.obj
-.PHONY : Robot.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-Robot.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot.dir\build.make CMakeFiles/Robot.dir/Robot.cpp.obj
-.PHONY : Robot.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-Robot.i: Robot.cpp.i
-.PHONY : Robot.i
-
-# target to preprocess a source file
-Robot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot.dir\build.make CMakeFiles/Robot.dir/Robot.cpp.i
-.PHONY : Robot.cpp.i
-
-Robot.s: Robot.cpp.s
-.PHONY : Robot.s
-
-# target to generate assembly for a file
-Robot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Robot.dir\build.make CMakeFiles/Robot.dir/Robot.cpp.s
-.PHONY : Robot.cpp.s
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -236,17 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Maze
-	@echo ... RandomRobot
-	@echo ... RightHandRuleRobot
-	@echo ... Robot
 	@echo ... main
-	@echo ... Robot.obj
-	@echo ... Robot.i
-	@echo ... Robot.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
