@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
@@ -17,22 +16,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
-  "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake"
-  "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake"
-  "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/CMakeLists.txt"
-  "CMakeFiles/3.25.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.25.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.25.0/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.25.0/CMakeSystem.cmake"
+  "C:/Users/claud/Desktop/lab7/CMakeLists.txt"
+  "CMakeFiles/3.25.0-rc3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.25.0-rc3/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.25.0-rc3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -48,9 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Maze.dir/DependInfo.cmake"
-  "CMakeFiles/Robot.dir/DependInfo.cmake"
-  "CMakeFiles/RandomRobot.dir/DependInfo.cmake"
-  "CMakeFiles/RightHandRuleRobot.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

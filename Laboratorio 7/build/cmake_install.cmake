@@ -1,8 +1,8 @@
-# Install script for directory: D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7
+# Install script for directory: C:/Users/claud/Desktop/lab7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Maze")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio 7/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/claud/Desktop/lab7/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

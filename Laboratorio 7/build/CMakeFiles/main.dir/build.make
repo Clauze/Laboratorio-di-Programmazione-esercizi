@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7"
+CMAKE_SOURCE_DIR = C:\Users\claud\Desktop\lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build"
+CMAKE_BINARY_DIR = C:\Users\claud\Desktop\lab7\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -68,38 +68,34 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/main.cpp.obj: D:/utente/GitHub/Laboratorio-di-programmazione/Laboratorio-di-Programmazione-esercizi/Laboratorio\ 7/main.cpp
-CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\main.cpp"
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/claud/Desktop/lab7/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\claud\Desktop\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c C:\Users\claud\Desktop\lab7\src\main.cpp
 
-CMakeFiles/main.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\main.cpp" > CMakeFiles\main.dir\main.cpp.i
+CMakeFiles/main.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\claud\Desktop\lab7\src\main.cpp > CMakeFiles\main.dir\src\main.cpp.i
 
-CMakeFiles/main.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\main.cpp" -o CMakeFiles\main.dir\main.cpp.s
+CMakeFiles/main.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\claud\Desktop\lab7\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.obj"
+"CMakeFiles/main.dir/src/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/main.dir/main.cpp.obj
+main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
-main.exe: libRobot.a
-main.exe: libRightHandRuleRobot.a
-main.exe: libRandomRobot.a
-main.exe: libMaze.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\claud\Desktop\lab7\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +107,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build" "D:\utente\GitHub\Laboratorio-di-programmazione\Laboratorio-di-Programmazione-esercizi\Laboratorio 7\build\CMakeFiles\main.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\claud\Desktop\lab7 C:\Users\claud\Desktop\lab7 C:\Users\claud\Desktop\lab7\build C:\Users\claud\Desktop\lab7\build C:\Users\claud\Desktop\lab7\build\CMakeFiles\main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
